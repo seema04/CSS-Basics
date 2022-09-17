@@ -1,0 +1,62 @@
+/* Display property
+
+1.block 
+eg. div,p,h1,form,etc.
+a) newline se start hoga.
+b) full width lega.
+c) height and width dono apply kr skte hai.
+
+
+2.inline  (utna hi leta hai jitna isko jaroorat hai)
+eg. a,img,span,etc.
+a) newline se start ni hota hai.
+b) full width nahi leta.
+c)height and width nahi apply kr skte.
+
+3.inline-block 
+ab agar hm cahte hai ki inline me hm height 
+aur width set kr paye,toh aise time pr ham inline-block use krte hai.
+
+4.none
+
+.display{
+    yaha hamne piche ke stylesheet me div ko margin di hui hai isiliye
+    div element pure screen me nahi hai, also we can see that, div kyuki 
+    block element hai to dono new line se start hai.*/
+  /*  border:2px solid brown;
+    height: 80px;
+    width:100px;
+    ab agar in dono div ko same line me laana cahte hai toh, display ko 
+    inline pr set kr denge.
+
+    display:inline;
+    iss property ke lagte sath sara height and width hat gya,aur dono same line pr a
+    aa gye.
+    
+    ab inline-block set krke dekhte hai.
+    
+
+    display:inline-block;
+
+    /*yaha hame dekh sakte hai ki dono same line pr toh aa
+    gye but, unki jo height hamne di thi, wo avi v apply ho rhi hai.
+    
+     
+}
+*/
+/*
+#diva{
+   display: none;  /* element hide ho jata hai.*/
+     /*
+     visibility: hidden; isme v element hide ho jata hai.*/
+
+    /* dono me bs diffrence itna hai ki, jab ham display none
+    kiya toh div b uski jagah pr aa gya(webpage pr),kyuki div a
+     ne apna space chor diya.
+   
+     but jab hamne visibility hidden kiya toh, 2nd div apni jagahse shift nahi hua.
+     kyuki div a avi v hai aur usne space occupy kr rkha hai.
+    
+}
+*/
+

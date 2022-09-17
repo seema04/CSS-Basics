@@ -1,0 +1,77 @@
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
+.tahoma{
+margin-top:20px;
+font-family: Tahoma;
+font-weight: 800;
+font-size: 20px;
+}
+
+.arial{
+margin-top: 20px;
+font-family: Arial;
+font-weight: bold;
+font-size: 22px;
+width:280px;
+line-height: 30px;
+}
+
+.arial-span{
+color:red;
+font-style: italic;
+font-size: 16px;
+font-weight: 200;
+}
+
+.verdana{
+margin-top:20px;
+margin-bottom: 15px;
+font-family: Verdana;
+font-size: 18px;
+font-weight: 700;
+width:220px;
+}
+
+.verdana-span{
+font-family: Verdana;
+font-size: 12px;
+font-weight: 100;
+color:grey;
+}
+.d1{
+margin-bottom: 20px;
+font-family: Verdana;
+font-size: 14px;
+font-weight: 500;
+width:300px;
+}
+.b1{
+background-color: green;
+border-radius: 5px;
+border:none;
+padding:8px 15px;
+color:white;
+margin-top:0;
+}
+
+.arial2{
+margin-top:20px;
+font-family: Arial;
+font-size: 20px;
+width:285px;
+margin-left:18px;
+line-height: 25px;
+}
+.arial2-s1{
+ font-family: Arial;
+ font-size: 14px;
+ margin-left:40px;
+ margin-right:auto;
+}
+.arial2-s2{
+    font-size: 14px;
+    color:steelblue;
+    margin-left:80px;
+}

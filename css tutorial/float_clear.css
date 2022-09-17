@@ -1,0 +1,57 @@
+.nav{
+    background-color: rgba(64, 115, 126, 0.814);
+    list-style-type:none;
+    font-family: my;
+   /*
+   border:2px solid goldenrod;
+   */
+   overflow: auto;
+
+}
+.nav li{
+    padding:10px 15px;
+    float: left;
+    /*float left krte sath, page se ssare element hide ho jyege, hame
+    background color v nahi dikh rha,bus border dikh rha wo upar ki trf
+    shift hue,  ye hua kyu ???
+    hame text color black krna pdega text dekhne ke liye .
+      
+    jaise hi hm float kr rhe hai.li ul(container) se bahar aa ja rha, kyu?
+    kyuki content overflow ho rha.
+
+    hame overflow:auto pr set krna pdega.
+
+    color:black;
+    */
+    color:aliceblue;
+}
+
+#content{
+   width:70%;
+   background-color: chocolate;
+   height: 200px;
+   float: left;
+}
+
+#sidebar{
+   width:30%;
+   height: 150px;
+   background-color: darkcyan;
+   float: left;
+}
+
+#footer{
+    background-color: yellowgreen;
+    /* jaise hi hamne height of sidebar ko chota kiya,
+    footer sidebar ke neeche wale area me chala gya,
+    
+    hame yaha clear use krna pdega. clear:both(matlab na footer
+    left me reh skte ho na right me),phir wo neeche chala jyega.
+    */
+      clear:both;
+
+      /*clear dono element me laga skte hai(float set kiya hua
+      ya na kiya hua,dono me),also clear ka yahi matlab hota hai ki,
+      aap floated element ke left ya right me reh paoge ya nahi.*/
+
+}

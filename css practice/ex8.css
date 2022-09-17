@@ -1,0 +1,42 @@
+#name{
+    border:2px solid rgb(197, 190, 190);
+    border-radius: 5px;
+    display:block;
+}
+#email{
+    margin-top:5px;
+    border:2px solid rgb(197, 190, 190);
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 30px;
+}
+.button-text{
+    width:200px;
+    font-family: Tahoma;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#yes,#no{
+    border:2px solid rgb(197, 190, 190);
+    border-radius: 5px;
+}
+
+#google-logo{
+    margin-left:120px;
+    width:400px;
+    display: block;
+    object-fit: cover;
+    object-position: middle;
+}
+
+#google-search{
+    margin-top:0;
+    margin-left: 120px;
+    border:2px solid rgb(197, 190, 190);
+    border-radius: 25px;
+    padding:10px 120px;
+    box-shadow:  0 1px 6px rgba(0, 0, 0, 0.2);;
+
+}
+

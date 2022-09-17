@@ -1,0 +1,35 @@
+.title{
+    margin-top:0;
+    font-size: 30px;
+    font-family: Tahoma;
+}
+#pickup{
+    border:none;
+    background-color: gainsboro;
+    padding: 10px 90px 10px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#dest{
+    border:none;
+    background-color: gainsboro;
+    padding: 10px 90px 10px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+#request{
+    background-color: black;
+    color:white;
+    padding:8px 10px;
+    border:none;
+}
+#later{
+    font-family: Tahoma;
+    background-color: gainsboro;
+    border:none;
+    padding: 8px 10px;
+    font-weight: 400;
+}

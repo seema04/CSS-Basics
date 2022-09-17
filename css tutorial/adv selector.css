@@ -1,0 +1,72 @@
+/*
+*{
+    border:2px solid red;
+}
+li{
+    color:cornflowerblue;
+}
+#l2{
+    color:goldenrod;
+}
+.l5{
+    color:rgb(250, 125, 8);
+} */
+/*pseudo class*/
+/*
+a:hover{
+    color:aquamarine;
+}
+*/
+/*pseudo element
+p::first-line{
+    color:rgb(0, 255, 183);
+}
+*/
+/*ham ais list select krna cahte hai jisska attribute "https://google.com ho" */
+/*
+a[href="https://www.google.com"]
+{
+    color:springgreen;
+}
+
+*/
+
+/*div ke andar kisi bhi level pr a tag ho toh ye style lag jyega.*/
+div a{
+    color:aquamarine;
+}
+
+/*direct child ke liye > use krege .*/
+
+div>a{
+    color:rgb(76, 69, 177);
+}
+
+/*just sibling mtlab div tag ke just baad a tag hona chaiye
+
+div+a{
+    color:goldenrod;
+}
+*/
+/*normal siblings*/
+
+div ~ a{
+    color:tomato;
+}
+
+#col{
+    column-count: 3;
+    /*column ke beech ka distance.*/
+    column-gap: 50px;
+    column-rule-style:solid ;
+    column-rule-width:2px;
+    column-rule-color:steelblue ;
+    /*column:1px solid olive*/
+    column-width: 300px;
+   
+}
+
+/*ab agar ham cahte hai heading dalna toh h1 tag use krge, but h1 element add krne par wo left me showho rha ,ham cahte hai ki wo top me show ho.*/
+h1{
+    column-span: all;
+}

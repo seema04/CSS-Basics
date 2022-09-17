@@ -1,0 +1,65 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto,sans-serif;
+}
+.profile{
+    height:250px;
+    width:150px;
+    margin:5px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 5px 5px 10px rgba(178, 176, 176,0.5);
+}
+
+.profile-pic{
+    height:150px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.photo{
+    height: 100%;
+    width:100%;
+}
+.dp{
+    width:25px;
+    display: inline-block;
+
+}
+.penguin{
+    width:100%;
+    vertical-align: top;
+    margin-top: 0;
+}
+.frnds{
+    display: inline-block;
+    width:120px;
+    vertical-align: top;
+
+}
+.uname{
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.b button{
+    background-color: rgb(23, 106, 215);
+    border:none;
+    color: whitesmoke;
+    padding:4px 7px;
+    border-radius: 3px;
+}
+.mutual-frnds{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+
+.b{
+    margin:5px;
+}
+.photo img{
+    object-fit: cover;
+    object-position: center;
+}

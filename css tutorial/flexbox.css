@@ -1,0 +1,99 @@
+/*
+.flex-container{
+  background-color: rgb(214, 216, 42);
+  /*ham parent ko btayege ki aap apne child ko as a flexsheet treat kiye.
+
+  flex-direction: column;
+  
+  display: flex;
+  
+  flex-wrap:wrap-reverse;
+  agar ham bs flex-wrap:wrap likhege toh flex saare elements ko ek hi line me adjust krega. 
+  
+  flex-flow:row wrap;  shorthand for above property*/
+  /*
+  justify-content: center;  flex-end/flex-start
+  justify-content: space-around;  har ek element ke dono side same space hoga.*/
+  /*justify-content: space-between;  1st aur last element apni jagah fix rahege unke beech ka space change hoga.
+
+  height:400px; jaise hi height mili div ke elements strech ho gye apne parent ke jitne,hame ye nahi cahiye,ham cahte hai ki div ke elements apne cotent ke hisab se height le.
+  so, align-items use krege.
+
+  align-items: stretch; /*default
+  flex-wrap: wrap;
+  
+  /*justify content ka opposite hai align content,
+  justify content horizontal me kaam krta hai,jabki align content vertical kaam krta hai.
+
+  align-content: space-around;
+
+}
+.flex-child{
+  background-color: rgb(113, 148, 155);
+  margin:20px;
+  padding:20px;
+  width:100px;
+  text-align: center;
+}
+
+#d1{
+    margin:20px 0 20px 0;
+    background-color: yellowgreen;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow:row wrap;
+}
+
+#d2{
+    background-color: indianred;
+    width:70px;
+    text-align: center;
+    padding:15px;
+}
+*/
+.flex-container{
+    background-color: slateblue;
+    display:flex;
+    height: 500px;
+
+}
+.flex-child{
+    background-color: rgb(141, 81, 81);
+    width:100px;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#one{
+    /*
+    flex-grow:1 ;*/
+    /*agar grow krega toh kaun kitna jyda space lega ye hm ratio ke hisab se dete hai(agar khali space dikhega toh).
+    
+    flex-shrink iska ulta hai(kaun sa item ko jyda ghatana hai agar space na ho toh).
+    
+    flex-shrink: 3;
+
+    align-shelf- ye agar hm cahte hai hr element ko alag alag align krana.
+
+    flex-basis: 300px;
+    */
+    align-self: flex-start;
+}
+#two{
+   /*
+   flex-grow: 2;
+   */
+   align-self:center;
+}
+#three{
+
+    align-self: flex-end;
+    /*
+   flex-grow: 4;
+   */
+}
+

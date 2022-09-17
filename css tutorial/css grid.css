@@ -1,0 +1,66 @@
+.grid-container{
+    background-color: teal;
+    padding: 20px;
+    display:grid;
+    /* column set kiya hamne 200px aur 400px me toh,div apne child ko 2 column me divide kr dega,200px aur 400px me
+    grid-template-columns: 200px 300px;
+
+    /*agar ham cahte hai teen column bane toh teeno ko auto denge aur teeno equal parts me divide ho jyega.
+
+    grid-template-columns: auto auto auto;
+    
+    grid-template-columns: auto 50% auto;
+
+    /*ab agar ham height change krna cahte hai kisi row ka, 
+    grid-template-rows: 100px 200px auto;*/
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+
+    /*ab agar parent ka width bach jaye aur hamlog cahte hai ki div items horizontal align ho jaye toh? */
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+    height:400px;
+    align-content: space-evenly;
+
+   
+
+}
+.grid-item{
+    background-color: antiquewhite;
+    color:sienna;
+    border:1px solid rgb(139, 135, 14);
+    padding:10px;
+    font-size:40px;
+    text-align: center;
+}
+#g1{
+     /*ab column ya rows merge krke dekhege.
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    we can also use shorthand.
+    */
+   /* grid-column: 1/span 4;
+    ye colummn 1 se lekr column 4 tk merge kr dega
+    grid-column: 1/4;
+*/
+}
+#g2{
+    /*
+    grid-row: 1/4; 
+   */
+}
+
+
+#g5{
+  
+    /* 
+    ab agar ham row aur column dono combined krn cahte hai,toh?
+    grid 5 jo hai wo 2 se start ho aur 6 tk jaaye.
+    hame grid area define krna pdega.
+
+    hame grid-area me btaana pdega kaun se row se, aur kaun se column se.
+    i.e, row no=1 and column no=2 ad ened kaha krna hai wo( hame 6th block tk jana hai,so 3 no row line.)and then finally column no line.
+    */
+    grid-area: 1/2/3/4;
+}

@@ -1,0 +1,44 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-top:0;
+    margin-bottom: 0;
+    margin:3px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info{
+    width:200px;
+}
+
+.prof-img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px;
+}
+img{
+    width:60px;
+}
+.uname{
+    color:black;
+    font-weight: 600;
+}
+.handle,.category{
+    color:grey;
+    font-size: 13px;
+}
+
+button{
+    background-color: rgb(15, 157, 233);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:6px 8px;
+}

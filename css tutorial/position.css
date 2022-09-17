@@ -1,0 +1,137 @@
+/* ***************position property********************
+
+
+1.static (default)
+2.relative  (current jo position hai uske kitna left/right/top/bottom jana hai).
+3.fixed
+4.absolute    (absolute position apna calulation start krta hai apne parent se jo ki
+              positioned ho(mtlab static chor kr kuch aur position property set hua 
+              hona cahiye parent pr)). 
+
+5.top
+6.bottom
+7.left
+8.right
+
+agar position: relative/fixed/absolute, hoga tavi hm ye property
+(left right bottom top) use kr skte hai.
+
+*/
+
+/* ***************  position property ************/
+
+div{
+    border:none;
+    margin:0;
+}
+
+#p1{
+   /* border:1px solid brown;*/
+    padding:20px;
+    width:50%;
+    margin:100px;
+    /* ab parent ko position bna kr dekhte hai for 
+    absolute position property.
+    
+    position:absolute;
+
+    /*parent ko position dene ke bad ham dekh skte hai ki,
+    div jo hai ab apne parent div ke position ke hisab se div ke top right me hai,
+    jabki pehle case me jab parent position nahi tha tab body ke according
+    position lekr 2nd iv webpage ke top left corner me shift ho gya tha.
+   */
+
+    position: relative;
+}
+  
+#one{
+    width:100px;
+    height: 100px;
+    background-color: rgb(74, 74, 110);
+    display:inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+#two
+{   
+    width:100px;
+    height: 100px;
+    background-color: bisque;
+    display:inline-block;
+    /*
+    position:relative;
+    top:50px;
+    left:50px;
+    ab jo 2nd div hai, wo pehle jo position tha uske relative top se 50px
+    aur left se 50px shift ho jyega.*/
+    
+    /*absolute position jo hai wo apne "positioned parent" ke relative 
+      kudh ko adjust krta hai,lekin agar usko apna parent positioned nahi mila toh,
+      wo apne parent ke parent ko dekhega ki kya wo positioned hai.
+      agar waha v nahi mila toh finaly wo apne body ke relative position set krega.
+      postion:absolute ham lga kr dekhte hai.*/
+    /*
+     position:absolute;
+     top:0px;
+     left: 0px;
+
+        */
+     /* (absolute position):
+    apni body ki according ye set hoga(kyuki parent 
+    positioned nahi hai. ab jaise ha 
+    dekh rhe hai last div hat gya...,kyu 
+    
+    kyuki usne apna jagah toh chor diya,but hamne btaya hi nahi top/bottom
+    toh apni hi jagah pr hai wo,but apni jagah vacant kr dia aur uski wajah se 3rd div
+    uske neech aa gya.
+
+    ab agar hm top/bottom denge toh 3rd div hame dikhega kyuki 2nd div apni jagah 
+    se shift ho jyega.
+    ??
+
+    lets see parent ko position banane ke baad agar hm div ko absolute banayege toh kya
+    hoga.
+
+
+    ab 3rd property apply krke dekhte hai,
+    position:fixed.
+
+   position: fixed;
+   bottom:10px;
+   right:10px;
+
+   */
+   position: relative;
+   top:50px;
+   left: -50px;
+   z-index: 3;
+}
+
+#three
+{
+    width:100px;
+    height: 100px;
+    background-color: rgb(189, 161, 85);
+    display:inline-block;
+
+    position:relative;
+    top:100px;
+    left: -100px;
+    z-index: 1;
+}
+
+/* ********* layer and z index property ********* */
+
+/* hm pehle teeno div ka position relative kr dete 
+hai aur top:50px aur left:-50px set kr dete hai
+
+layers ka display hone ka property set krne k liye hame 
+z index ki jaroort padhti hai.
+
+z-index tavi kaam krta hai jab position 
+absolute/relative/fixed ho.
+
+jiska z index sbase jyda hai wo sabse upar rhega
+layers me.
+*/

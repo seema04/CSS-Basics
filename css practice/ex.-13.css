@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    height: 60px;
+}
+.div1{
+    background-color: lightcoral;
+    width:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.div2{
+    background-color: skyblue;
+    width:200px;
+}
+.div1-item{
+    background-color: rgb(20, 20, 19);
+    color:white;
+}
+
+/* 13-b*/
+.contain{
+    display: flex;
+    height:60px;
+    
+}
+.column1{
+    background-color: lightsalmon;
+    width:100px;
+}
+.column2{
+    background-color: powderblue;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.row2{
+ display: flex;
+ justify-content:space-between;
+
+}
+.row2-item{
+    background-color: black;
+    color:white;
+
+}

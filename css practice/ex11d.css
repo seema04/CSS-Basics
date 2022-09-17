@@ -1,0 +1,52 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:  200px 200px 200px;
+    column-gap: 15px;
+   
+}
+.profile{
+  width:200px;
+  box-shadow: 5px 5px 10px;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.prof-img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+
+}
+.frnd-container{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 8px;
+    margin:10px;
+    align-items: center;
+}
+.dp{
+    width:100%;
+    border-radius: 50%;
+}
+.uname{
+    font-weight:600;
+    margin:5px;
+}
+
+.add-button{
+  border:none;
+  background-color: powderblue;
+  padding:10px;
+  border-radius:5px;
+  margin:10px;
+}
+.mutual{
+    font-size: 14px;
+    color:grey;
+}

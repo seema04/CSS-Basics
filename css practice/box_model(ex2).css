@@ -1,0 +1,56 @@
+.back-button{
+    padding:9px 8px;
+    margin-right:8px;
+    border: 2px solid grey;
+    border-radius: 3px;
+  }
+  .next-button{
+    padding:9px 8px;
+    margin-left:3px;
+    border: 2px solid grey;
+    border-radius: 3px;
+  }
+  .res{
+    margin-right:5px;
+  }
+  .green{
+    background-color: green;
+    border:none;
+    padding:8px 14px;
+    margin-right: 10px;
+    color:white;
+  }
+   #stretch{
+    transition:padding 1s;
+   }
+   #stretch:hover{
+    padding:20px 50px;
+   }
+
+   #shadow{
+    transition:box-shadow 1s;
+   }
+
+   #shadow:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    }
+    #m1{
+        transition: padding 1s;
+    }
+    #m1:hover{
+        padding:12px 18px;
+    }
+
+    #m2{
+        transition: padding 1s;
+    }
+    #m2:hover{
+        padding:12px 18px;
+    }
+
+    #m3{
+        transition: padding 1s;
+    }
+    #m3:hover{
+        padding:12px 18px;
+    }

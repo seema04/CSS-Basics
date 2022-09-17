@@ -1,0 +1,32 @@
+#fname{
+    border:2px solid rgb(210, 204, 204);
+    padding:10px 4px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top:10px;
+    
+}
+#lname{
+    border:2px solid rgb(210, 204, 204);
+    padding:10px 4px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom: 5px;
+    margin-right:3px;
+}
+#email{
+    border:2px solid rgb(210, 204, 204);
+    padding:12px 93px;
+    border-radius: 5px;
+    display:block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.signup{
+    background-color: rgb(20, 148, 212);
+    padding:10px 150px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    margin-top:10px;
+}

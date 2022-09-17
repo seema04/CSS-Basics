@@ -1,0 +1,24 @@
+#div-out{
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  margin-top: 30px;
+}
+#div-in1{
+    background-color: powderblue;
+}
+#div-in2{
+    background-color: palevioletred;
+}
+
+#d-out{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    margin-top: 30px;
+  }
+  .d-in1{
+      background-color: powderblue;
+  }
+  #d-in2{
+      background-color: palevioletred;
+  }
+

@@ -1,0 +1,22 @@
+.grid-container1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.g1{
+    background-color: skyblue;
+}
+.g2{
+    background-color: yellowgreen;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.grid-container3{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   column-gap: 20px;
+   row-gap: 10px;
+}

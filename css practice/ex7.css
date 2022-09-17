@@ -1,0 +1,20 @@
+.i2{
+    width:200px;
+    border:2px solid brown;
+    object-fit:contain;
+    object-position: left;
+    border-radius: 15px;
+}
+.i3{
+    width:350px;
+    height: 350px;
+    border: 2px solid brown;
+    border-radius: 50%;            
+}
+.i4{
+    border: 2px solid orangered;
+    width:350px;
+    height:350px;
+    object-fit: cover;
+    object-position: center;
+}

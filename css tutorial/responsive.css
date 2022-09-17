@@ -1,0 +1,47 @@
+/************media query*************/
+
+#d1{
+  width: 70%;
+  float: left;
+  background-color: rgb(107, 164, 186);
+}
+#d2{
+    width: 30%;
+    float: left;
+    background-color: rgb(93, 88, 123);
+}
+h1{
+    font-size: 80px;
+}
+
+/*matlab iske andar jo v ham property likhege ,wo sirf 768px width tk hi valid hoga*/
+@media screen and (max-width: 768px){
+    #d1{
+        width:50%;
+    }
+    #d2{
+        width:50%;
+    }
+
+}
+/*min_width:400px matlab 400px se upar ye apply hone lagea.
+aur agar dono use krege,
+min-width:400px and max-width:768px;
+iska matlab ye hua ki, 400px(mobile ke width) se upar aur 768px tk hame ye style lagana hai.*/
+
+@media screen and (max-width: 400px){
+    #d1{
+        width:100%;
+    }
+    #d2{
+        width:100%;
+    }
+
+}
+
+/*images aur video ko responsive banane ka ye short tarika hai. */
+img{
+    width:100%;
+    height:auto;
+}
+
